@@ -1,36 +1,24 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Workout App Description
+The Workout App is an interactive web application built with React and Next.js, designed to help users explore and select various types of workouts. The application leverages Tailwind CSS for modern, responsive styling and includes comprehensive testing with React Testing Library and Jest to ensure robustness and reliability.
 
-## Getting Started
+Key Features:
+User Personalization:
 
-First, run the development server:
+Users are prompted to enter their name, which personalizes their experience throughout the app.
+Workout Categories:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Cardio: Select from various cardio workouts to boost cardiovascular health.
+Gym: Explore different gym-based exercises tailored to strength training.
+Daily Challenge: Engage in a new daily fitness challenge to stay motivated.
+Stretching: Access a range of stretching exercises to improve flexibility and recovery.
+Interactive Components:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+UserName Component: Allows users to enter and submit their name. Once submitted, it updates the app state to personalize the experience.
+Workout Selection: Users can choose from different workout types, and the app dynamically displays relevant workout details.
+DisplayCard: Showcases selected workout details and provides an option to return to the main view.
+Responsive Design:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Styled using Tailwind CSS to ensure a clean, responsive, and visually appealing layout across different devices.
+Testing and Quality Assurance:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Comprehensive tests are written using React Testing Library and Jest to validate functionality and ensure a high-quality user experience.
