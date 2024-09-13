@@ -1,7 +1,16 @@
+'use client'
+
+import HeroMessage from "@/components/HeroMessage";
+import Input from "@/components/Input";
 import Image from "next/image";
+import { useState } from "react";
+
 
 export default function Home() {
+  const [name, setName] = useState<string | null>(null)
+
   return (
+<<<<<<< Updated upstream
     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
       <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
         <Image
@@ -96,6 +105,13 @@ export default function Home() {
           Go to nextjs.org →
         </a>
       </footer>
+=======
+    <div className=" h-screen">
+      <main className="bg-yellow-300 h-full">
+        {!name && <Input updateUser={setName}/>}
+        {name && <HeroMessage name={name} />}
+      </main>
+>>>>>>> Stashed changes
     </div>
   );
 }

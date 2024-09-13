@@ -4,7 +4,7 @@ describe('display message render correctly', () => {
   const mockName = "Diyako"
   test('display message title render correctly', () => {
     render(<HeroMessage name={mockName} />);
-    const messageTitle = screen.getByRole("heading", {level: 3, name: `Hi Diyako👋🏼 Find Your Perfect Workout!`});
+    const messageTitle = screen.getByRole("heading", {level: 3, name: `Hi ${mockName} 👋🏼 Find Your Perfect Workout!`});
     expect(messageTitle).toBeInTheDocument()
   });
   it("display message paragraph render correctly", ()=> {
