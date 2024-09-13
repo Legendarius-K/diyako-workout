@@ -36,7 +36,7 @@ export const CardioWorkout = [
   ];
    
 
-  export const challenge = [
+  export const ChallengeWorkout = [
     { "100 Push-Ups Challenge": "Perform 100 push-ups as quickly as possible." },
     { "200 Squats Challenge": "Complete 200 squats without resting." },
     { "5-Minute Plank Challenge": "Hold a plank position for 5 minutes, either in one go or split into smaller sections." },
