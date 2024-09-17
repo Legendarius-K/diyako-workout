@@ -3,9 +3,11 @@ import DisplayCard from '.';
 import { CardioExercise } from '@/utils/types';
 
 const cardioWorkout: CardioExercise[] = [
-  { Run: '3 x 800m' },
+  { 'Run': '3 x 800m' },
   { 'Sprint Intervals': '10 x 100m' },
 ];
+
+// const cardioWorkout = "Cardio"
 
 describe('DisplayCard Component', () => {
   it('renders Cardio workout correctly', () => {

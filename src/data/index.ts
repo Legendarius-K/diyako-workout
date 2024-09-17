@@ -1,3 +1,8 @@
+import Cardio from "../../public/cardio.png"
+import Muscle from "../../public/muscle.png"
+import Challenge from "../../public/challenge.png"
+import Mobility from "../../public/mobility.png"
+
 export const CardioWorkout = [
     { "Run": "3 x 800m" },
     { "Sprint Intervals": "10 x 100m" },
@@ -71,3 +76,10 @@ export const CardioWorkout = [
     { "Side Stretch": "Hold for 30 seconds each side" },
     { "Neck Stretch": "Hold for 30 seconds each side" }
   ];
+
+export const workoutCards = [
+  { title: "Cardio", image: Cardio, bgColor: "bg-green-600" },
+  { title: "Muscle", image: Muscle, bgColor: "bg-blue-500" },
+  { title: "Challenge", image: Challenge, bgColor: "bg-orange-400" },
+  { title: "Mobility", image: Mobility, bgColor: "bg-purple-500" }
+]
